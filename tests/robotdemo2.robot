@@ -11,7 +11,7 @@ Library    Dialogs
 *** Test Cases ***
 should be able to add new customer
     [Documentation]         this is some basic info about the test
-    [Tags]                  100     smoke       contact
+    [Tags]                  100     smoke   product       contact
     #initialize selenium
     Set Selenium Speed      .2s
     Set Selenium Timeout    10s
