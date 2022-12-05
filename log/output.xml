@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221123 13:31:25.039" rpa="false" schemaversion="3">
+<suite id="s1" name="Testdemo1" source="C:\Users\Home\PycharmProjects\robotnew\tests\testdemo1.robot">
+<test id="s1-t1" name="validate the login is possbile" line="7">
+<kw name="Open the browser">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>chrome</arg>
+<arg>executable_path=/Users/Home/chromedriver</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20221123 13:31:25.205" level="INFO">Creating an instance of the chrome WebDriver.</msg>
+<msg timestamp="20221123 13:31:25.205" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20221123 13:31:25.205" level="FAIL">TypeError: 'module' object is not callable</msg>
+<status status="FAIL" starttime="20221123 13:31:25.205" endtime="20221123 13:31:25.221"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://accounts.google.com</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20221123 13:31:25.221" endtime="20221123 13:31:25.221"/>
+</kw>
+<status status="FAIL" starttime="20221123 13:31:25.205" endtime="20221123 13:31:25.221"/>
+</kw>
+<status status="FAIL" starttime="20221123 13:31:25.205" endtime="20221123 13:31:25.221">TypeError: 'module' object is not callable</status>
+</test>
+<doc>to validate the login form</doc>
+<status status="FAIL" starttime="20221123 13:31:25.055" endtime="20221123 13:31:25.221"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Testdemo1">Testdemo1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
